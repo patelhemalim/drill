@@ -1,0 +1,75 @@
+.children {
+    background-color: white;
+    border: 5px solid black;
+    position: relative;
+    height: 180px;
+    width: 1410px;
+}
+
+.box1 {
+    background-color: green;
+    width: 400px;
+    height: 150px;
+    left: 150px;
+    top: 12px;
+    position: relative;
+}
+
+.box2 {
+    background-color: rgb(105, 5, 199);
+    width: 30px;
+    height: 100px;
+    left: 17px;
+    top: 70px;
+    position: absolute;
+
+}
+
+.dot{
+    background-color: rgb(135,206,235);
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    display:flex;
+    left:650px;
+    position: absolute;
+    top:3px;
+}
+
+.children1{
+    background-color: white;
+    border:5px dotted black;
+    position: center;
+    height: 200px;
+    width: 1410px;
+    margin-top: 20px;
+}
+
+.box3{
+    background-color: rgb(255,250,205);
+    width: 1300px;
+    height: 120px;
+    left: 50px;
+    top: 40px;
+    position: relative;
+    border:8px outset;
+}
+
+.children3{
+    background-color: rgb(255,255,255);
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+    left:450px;
+    border:4px outset;
+}
+
+p{
+    color:rgb(53, 2, 53);
+    margin-top: 60px;
+    left: 200px;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+}

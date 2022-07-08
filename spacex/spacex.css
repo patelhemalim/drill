@@ -1,0 +1,34 @@
+
+footer{
+    position:absolute;
+    left:350px
+}
+
+.container{
+    position: relative;
+    text-align:center;
+    color: white;
+}
+
+.spacex{
+    position: absolute;
+    top:0px;
+    left:50px;
+}
+
+.largefont{
+    font-size:5vw;
+    font-family:fantasy;
+}
+
+.falcon{
+position:absolute;
+top:90px;
+left: 400px;
+}
+
+.smallfont{
+    font-size:1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}

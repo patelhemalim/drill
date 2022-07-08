@@ -1,0 +1,95 @@
+body>div {
+    background-color: white;
+    position: relative;
+    height: 700px;
+}
+
+
+
+
+.box1 {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(90, 141, 217);
+    left: 10px;
+    top: 10px;
+    position: relative;
+}
+
+.children {
+    background-color: gray;
+    width: 1450px;
+    height: 100px;
+    position:relative;
+    left: 0px;
+}
+
+.parent {
+    background-color: gray;
+    width: 1450px;
+    height: 100px;
+    position: top;
+    left: 0px;
+}
+
+#blue {
+    background-color: rgb(90, 141, 217);
+    width: 1450px;
+    height: 100px;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+
+}
+
+#teal {
+    width: 1450px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(121, 221, 192);
+    bottom: 100px;
+    left: 0px;
+}
+
+#green {
+    width: 1450px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(194, 231, 145);
+    bottom: 200px;
+    left: 0px;
+}
+
+#yellow {
+    width: 1450px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(245, 231, 82);
+    bottom: 300px;
+    left: 0px;
+}
+
+.article {
+    top: 400px;
+    left: 0px;
+    position: absolute;
+}
+
+
+
+#mark {
+    background: black;
+   
+    border-radius: 50%;
+    position:fixed;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+
+}
+#pee {
+    text-align: center;
+    color: white;
+}

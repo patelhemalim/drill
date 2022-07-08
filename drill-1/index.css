@@ -1,0 +1,52 @@
+body div {
+  background-color: white;
+  position: relative;
+  height:600px;
+}
+
+.children{
+    height:100px;
+    width:100px;
+    }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#box1{
+    background-color: gray;
+    width: 2000px;
+    top:0px;
+    left:0px;
+    right:10000px;
+   
+}
+
+#box2{
+    background-color: rgb(221, 217, 217);
+    width:100px;
+    height:600px;
+    z-index:1 ;
+}
+
+#box3{
+    background-color:rgb(221, 217, 217);
+    width:100px;
+    height:600px;
+    
+    z-index:1 ;
+}
+
+#box4{
+    background-color: black;
+    width: 1400px;
+    height: 80px;
+    bottom:0px;
+    position: absolute;
+    
+}
+
+
+
